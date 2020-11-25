@@ -49,7 +49,7 @@ public class test{
     dmy[2] = y;
     return dmy;
     }
-    
+
     public static int[] sumday (int d,int m,int y,int t) {
         int month[] = {0,31,28,31,30,31,30,31,31,30,31,30,31};
         int sum = 0;
@@ -65,6 +65,7 @@ public class test{
              month[2] = 29;}
              else{
              month[2] = 28;}
+             
         }//while
         int ans [] = new int [3];
         ans[0]=d;
