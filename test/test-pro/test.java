@@ -24,8 +24,6 @@ public class test{
             System.out.print(ansumday[i]+" ");
         }
         System.out.println("");
-
-
     }
 
     public static double day(int[] distant) {
@@ -65,7 +63,7 @@ public class test{
              month[2] = 29;}
              else{
              month[2] = 28;}
-             
+
         }//while
         int ans [] = new int [3];
         ans[0]=d;
